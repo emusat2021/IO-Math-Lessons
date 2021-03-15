@@ -13,3 +13,17 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+/* ----------debug---*/
+.debug {
+    border: 2px solid;
+}
+/* The navigation bar (https://www.w3schools.com/howto/howto_css_fixed_menu.asp)*/
+.navbar {
+  overflow: hidden;
+  color: rga(0,0,0,0.5);
+  position: fixed; 
+  top: 0;
+  width: 100%; 
+}
+ 
+
