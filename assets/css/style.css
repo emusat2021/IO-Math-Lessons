@@ -17,6 +17,11 @@ body {
     border: 2px solid;
 }
 /*------navbar-----*/
+.top-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .nav-item a {
     text-transform: uppercase;
   }
