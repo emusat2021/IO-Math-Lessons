@@ -39,6 +39,13 @@ body {
     width: auto;
     float: left;
 }
+.img-exercises {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    float: left;
+}
 
 /*--------right-about----*/
 
