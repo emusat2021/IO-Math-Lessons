@@ -1,28 +1,90 @@
 # Lesson---Pythagoras-Theorem #
 
-One or two paragraphs providing an overview of your project.
-Essentially, this part is your sales pitch.
+This is a basic lesson teaching Pythagora's theorem.
+<br>
+This lesson is presenting Pythagora's theorem for pupils in the 7th grade.
 
-##UX##
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-•	As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+## UX ##
 
-    ###Features:###
+i. STRATEGY PLANE
 
-##Existing Features##
+My goal is to provide educational material for helping teachers with their private lessons.
 
-•	Feature 1 - allows users X to achieve Y, by having them fill out Z
-•	...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### Users stories: ###
 
-##Features Left to Implement##
+As a... | I want to... | To be able to...
+---------|--------------|--------------
+User | Understand Pythagora Theorem | To demonstrate knowledge at school
+User | Practice with excercises | Test my knowledge
+User | Have a readable lesson | Easily understand the info presented
+User | See my test results | Have feedback on my learning progress
+----- |-------------------| -----------------------------------
+   
+ii. SCOPE PLANE
 
-•	Another feature idea
-##Technologies Used##
+### Features: ###
 
+1. Task bar att the top - helping user to easily navigate on a diferent pages.
+* Fixed navigation bar visible on every page including a menu dropdown and brand logo to link back to the homepage.
+2. Images with Pythagora's teorem which bring more ease to understand the lesson and for testing purpose.
+3. Video from Lesson page is to capture the pupil's attention to the lesson and make the lesson more interesting.
+4. Buttons in the Exercises page for pupil to test the knowledge of pupil att the end of the lesson. 
+* There are buttons that are providing correct answers as well for control check purpose.
+
+## Features Left to Implement ##
+
+One of the improvmen that can be done is to provide a submit button for the Exercises page and transform the page in the Test page.
+
+iii. STRUCTURE PLANE
+
+The **Lesson---Pythagoras-Theorem** is structureted in three pages:
+
+1. **Description** is the *first page* of **Lesson---Pythagoras-Theorem**. 
+
+The following information are on this page:
+* A basic presentation of Pythagora's theorem;
+* Pythagora's picture;
+* Formula for the theorem;
+* An colorful image that present the formula in more placent way for the pupil.
+
+2. **Lesson** is the *second page* of **Lesson---Pythagoras-Theorem**.
+
+The following information are on this page:
+
+* A lesson in which the theorem is presentet with a exemple of how to calculate a trinagel side using the theorem.
+* A video where another exemple is presentet in order for pupil to understand the theorem.
+* An suggestive image that present the formula for the pupil.
+
+3. **Exercises** is the *third page* of **Lesson---Pythagoras-Theorem**.
+
+The following information are on this page:
+
+* Three exercises whre the pupil can test the knowledge of the theorem.
+* Possibility for pupil to fyll in with an answer.
+* Possibility for pupil to find the correct answer.
+* An suggestive image with purpose to help to better calculate the formula for the exercises.
+
+iv. SKELETON PLANE
+
+**Wireframes**:
+![Wireframes](assets/wireframes/first_page_description.png)
+![Wireframes](assets/wireframes/second_page_description.png)
+![Wireframes](assets/wireframes/third_page_description.png)
+![Wireframes](assets/wireframes/mobiltablet.png)
+
+v. SURFACE PLANE
+
+In the **Lesson---Pythagoras-Theorem**
+
+The pupil will easily understand the info presented.
+
+The pupil will practice with excercises.
+
+The color of the backgroud, video, images will capture the pupil's attention to the lesson and make the lesson more interesting.
+
+
+## Technologies Used ##
+frameworks
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 •	JQuery
 o	The project uses JQuery to simplify DOM manipulation.
