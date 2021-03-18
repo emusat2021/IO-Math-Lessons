@@ -84,10 +84,25 @@ The color of the backgroud, video, images will capture the pupil's attention to 
 
 
 ## Technologies Used ##
-frameworks
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-•	JQuery
-o	The project uses JQuery to simplify DOM manipulation.
+
+**Languages Used**
+
+* The app was created using HTML5 styled with custom CSS3 styles.
+* The logic scripts were written in JavaScript.
+
+**Frameworks, Libraries & Programs Used**
+
+1. Bootstrap 4.5:
+* Bootstrap 4.5 css was used to create the selector and game board elements of the app with custom styles applied where necessary.
+2. Google Fonts:
+* Google fonts were used to import the Roboto font into the style.css file which is used on all text elements of the app.
+3. Git:
+* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+4. GitHub:
+* GitHub was used to store the projects code after being pushed from Git.
+5. Balsamic:
+* Balsamic was used to create the wireframes shown above for the front end design.
+
 
 ##Testing##
 
