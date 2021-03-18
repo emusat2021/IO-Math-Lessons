@@ -24,53 +24,53 @@ ii. SCOPE PLANE
 
 ### Features: ###
 
-1. Task bar att the top - helping user to easily navigate on a diferent pages.
-* Fixed navigation bar visible on every page including a menu dropdown and brand logo to link back to the homepage.
-2. Images with Pythagora's teorem which bring more ease to understand the lesson and for testing purpose.
-3. Video from Lesson page is to capture the pupil's attention to the lesson and make the lesson more interesting.
-4. Buttons in the Exercises page for pupil to test the knowledge of pupil att the end of the lesson. 
-* There are buttons that are providing correct answers as well for control check purpose.
+1. Task bar at the top - helping user to easily navigate to diferent pages.
+* Fixed navigation bar visible on every page including a dropdown menu.
+2. Images with Pythagora's teorem which bring more ease to understand the lesson.
+3. The video from the "Lesson" page is to capture the pupil's attention to the lesson and make the lesson more interesting.
+4. Buttons in the "Exercises" page for the pupil to test him/herself  att the end of the lesson. 
+* There are buttons that are providing correct answers as well for test feedback.
 
 ## Features Left to Implement ##
 
-One of the improvmen that can be done is to provide a submit button for the Exercises page and transform the page in the Test page.
+One of the improvments that can be done is to provide a submit button for the "Exercises" page and use JavaScript to auto-grade the test.
 
 iii. STRUCTURE PLANE
 
-The **Lesson---Pythagoras-Theorem** is structureted in three pages:
+The **Lesson---Pythagoras-Theorem** is structured in three pages:
 
 1. **Description** is the *first page* of **Lesson---Pythagoras-Theorem**. 
 
-The following information are on this page:
+The following pieces of information are on this page:
 * A basic presentation of Pythagora's theorem;
 * Pythagora's picture;
 * Formula for the theorem;
-* An colorful image that present the formula in more placent way for the pupil.
+* A colorful image that presents the formula in a more pleasant way for the pupil.
 
 2. **Lesson** is the *second page* of **Lesson---Pythagoras-Theorem**.
 
-The following information are on this page:
+The following pieces of information are on this page:
 
-* A lesson in which the theorem is presentet with a exemple of how to calculate a trinagel side using the theorem.
-* A video where another exemple is presentet in order for pupil to understand the theorem.
-* An suggestive image that present the formula for the pupil.
+* A lesson in which the theorem is presented with an example of how to calculate a triangle's side using the theorem.
+* A video where another exemple is presented in order for pupil to understand the theorem.
+* A suggestive image that presents the formula for the pupil.
 
 3. **Exercises** is the *third page* of **Lesson---Pythagoras-Theorem**.
 
-The following information are on this page:
+The following pieces of information are on this page:
 
-* Three exercises whre the pupil can test the knowledge of the theorem.
-* Possibility for pupil to fyll in with an answer.
-* Possibility for pupil to find the correct answer.
-* An suggestive image with purpose to help to better calculate the formula for the exercises.
+* Three exercises where the pupil can test the knowledge of the theorem.
+* Possibility for the pupil to fill in an answer calculated by him/herself.
+* Possibility for the pupil to choose the correct answer.
+* A suggestive image with the purpose of helping to better calculate the formula for the exercises.
 
 iv. SKELETON PLANE
 
 **Wireframes**:
 ![Wireframes](assets/wireframes/first_page_description.png)
-![Wireframes](assets/wireframes/second_page_description.png)
-![Wireframes](assets/wireframes/third_page_description.png)
-![Wireframes](assets/wireframes/mobiltablet.png)
+![Wireframes](assets/wireframes/second_page_lesson.png)
+![Wireframes](assets/wireframes/third_page_exercises.png)
+![Wireframes](assets/wireframes/mobiletablet.png)
 
 v. SURFACE PLANE
 
@@ -92,14 +92,14 @@ The color of the backgroud, video, images will capture the pupil's attention to 
 
 **Frameworks, Libraries & Programs Used**
 
-1. Bootstrap 4.5:
-* Bootstrap 4.5 css was used to create the selector and game board elements of the app with custom styles applied where necessary.
+1. Bootstrap 4.6:
+* Bootstrap 4.6 css was used to create the navigation bar, as well as 'Exercises' page, responsive design, etc.
 2. Google Fonts:
 * Google fonts were used to import the Roboto font into the style.css file which is used on all text elements of the app.
 3. Git:
-* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* Git was used for version control by commiting to local repository and pushing to GitHub.
 4. GitHub:
-* GitHub was used to store the projects code after being pushed from Git.
+* GitHub was used to store the project's code after being pushed from local repository.
 5. Balsamic:
 * Balsamic was used to create the wireframes shown above for the front end design.
 
