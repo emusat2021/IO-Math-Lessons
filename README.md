@@ -92,15 +92,15 @@ The color of the backgroud, video, images will capture the pupil's attention to 
 
 **Frameworks, Libraries & Programs Used**
 
-1. Bootstrap 4.6:
+1. [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 * Bootstrap 4.6 css was used to create the navigation bar, as well as 'Exercises' page, responsive design, etc.
-2. Google Fonts:
+2. [Google Fonts:](https://fonts.google.com/)
 * Google fonts were used to import the Roboto font into the style.css file which is used on all text elements of the app.
-3. Git:
+3. [Git:](https://azure-loon-ay9p18v0.ws-eu03.gitpod.io/#/workspace/Lesson---Pythagoras-Theorem)
 * Git was used for version control by commiting to local repository and pushing to GitHub.
-4. GitHub:
+4. [GitHub:](https://github.com/)
 * GitHub was used to store the project's code after being pushed from local repository.
-5. Balsamic:
+5. [Balsamic:](https://balsamiq.com/wireframes/desktop/#)
 * Balsamic was used to create the wireframes shown above for the front end design.
 
 
