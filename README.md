@@ -118,14 +118,17 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-##Deployment##
+## Deployment ##
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-•	Different values for environment variables (Heroku Config Vars)?
-•	Different configuration files?
-•	Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+GitHub Pages
+The project was deployed to GitHub Pages using the following steps:
+
+1. Logged in to GitHub and located the [GitHub Repository](https://github.com/emusat2021/Lesson---Pythagoras-Theorem)
+2. At the top of the Repository, located the "Settings" Button on the menu.
+3. Scrolled down the Settings page until "GitHub Pages" Section was located.
+3. Under "Source", clicked the dropdown called "None" and selected "Master Branch".
+4. The page automatically refreshed.
+5. Scrolled back down through the page to locate the now published site [link](https://emusat2021.github.io/Lesson---Pythagoras-Theorem) in the "GitHub Pages" section.
 
 ## Credits ##
 
