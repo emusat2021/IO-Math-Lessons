@@ -1,16 +1,54 @@
-# Lesson---Pythagoras-Theorem #
+# IO-Math-Lessons_Pythagora's-theorem #
 
-This is a basic lesson teaching Pythagora's theorem.
-<br>
-This lesson is presenting Pythagora's theorem for pupils in the 7th grade.
 
-## UX ##
+The live website of Pythagora's theorem lesson can be viewed [here](https://emusat2021.github.io/Lesson---Pythagoras-Theorem/)
 
-i. STRATEGY PLANE
+todo image https://imgbb.com/
 
-My goal is to provide educational material for helping teachers with their private lessons.
+1st milestone project: User-Centric Frontend Development - [Code Institute](https://codeinstitute.net/) assignment project.
 
-### Users stories: ###
+This is an non profit organisation "IO Math Lessons" who provides websites with math lessons.
+The math lessons are made for 7 grade pupils in order to help them learn more easily a math lesson.
+ 
+This website with lesson of of Pythagora's theorem is for pupils in 7th grade. 
+
+This lesson is presenting Pythagora's theorem as well as images for better understanding, video and exercises.
+
+In adddision this website gives the opportunity to contact IO Math Lessons and see the list of lessons that are provided as well as form to send messages with a posible lesson requests.
+
+
+
+See IO Math Lessons offical website [here]todo
+
+# Table of Contents
+
+1. [UX](#ux)
+  * [Users stories](#users-stories)
+  * [Design](#design)
+2. [Features](#features)
+  * [Existing Features](#existing-features)
+    + [Navbar](#navbar)
+    + [Images](#images)
+    + [Video](#video)
+    + [Forms](#forms)
+    + [Description page](#description-page)
+    + [Lesson and Exercises page](#lesson-and-exercises-page)
+    + [Contact](#contact)
+  * [Features Left to Implement](#features-left-to-implement)
+3. [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries, Programs Used & other tools](#frameworks--libraries--programs-used---other-tools)
+4. [Testing todo](#testing-todo)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+  * [Code](#code)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
+7. [Disclaimer](#disclaimer)
+
+# UX
+## Users stories
 
 As a... | I want to... | To be able to...
 ---------|--------------|--------------
@@ -18,53 +56,13 @@ User | Understand Pythagora Theorem | To demonstrate knowledge at school
 User | Practice with excercises | Test my knowledge
 User | Have a readable lesson | Easily understand the info presented
 User | See my test results | Have feedback on my learning progress
------ |-------------------| -----------------------------------
-   
-ii. SCOPE PLANE
 
-### Features: ###
+## Design
 
-1. Task bar at the top - helping user to easily navigate to diferent pages.
-* Fixed navigation bar visible on every page including a dropdown menu.
-2. Images with Pythagora's teorem which bring more ease to understand the lesson.
-3. The video from the "Lesson" page is to capture the pupil's attention to the lesson and make the lesson more interesting.
-4. Buttons in the "Exercises" page for the pupil to test him/herself  att the end of the lesson. 
-* There are buttons that are providing correct answers as well for test feedback.
-
-## Features Left to Implement ##
-
-One of the improvments that can be done is to provide a submit button for the "Exercises" page and use JavaScript to auto-grade the test.
-
-iii. STRUCTURE PLANE
-
-The **Lesson---Pythagoras-Theorem** is structured in three pages:
-
-1. **Description** is the *first page* of **Lesson---Pythagoras-Theorem**. 
-
-The following pieces of information are on this page:
-* A basic presentation of Pythagora's theorem;
-* Pythagora's picture;
-* Formula for the theorem;
-* A colorful image that presents the formula in a more pleasant way for the pupil.
-
-2. **Lesson** is the *second page* of **Lesson---Pythagoras-Theorem**.
-
-The following pieces of information are on this page:
-
-* A lesson in which the theorem is presented with an example of how to calculate a triangle's side using the theorem.
-* A video where another exemple is presented in order for pupil to understand the theorem.
-* A suggestive image that presents the formula for the pupil.
-
-3. **Exercises** is the *third page* of **Lesson---Pythagoras-Theorem**.
-
-The following pieces of information are on this page:
-
-* Three exercises where the pupil can test the knowledge of the theorem.
-* Possibility for the pupil to fill in an answer calculated by him/herself.
-* Possibility for the pupil to choose the correct answer.
-* A suggestive image with the purpose of helping to better calculate the formula for the exercises.
-
-iv. SKELETON PLANE
+The goal in design was to create a website for a math lesson that is overall user friendly. 
+The pupil will easily understand the info presented.
+The pupil will practice with excercises.
+The color of the backgroud, video, images will capture the pupil's attention to the lesson and make the lesson more interesting. 
 
 **Wireframes**:
 ![Wireframes](assets/wireframes/first_page_description.png)
@@ -72,25 +70,56 @@ iv. SKELETON PLANE
 ![Wireframes](assets/wireframes/third_page_exercises.png)
 ![Wireframes](assets/wireframes/mobiletablet.png)
 
-v. SURFACE PLANE
+# Features
 
-In the **Lesson---Pythagoras-Theorem**
+## Existing Features
 
-The pupil will easily understand the info presented.
+### Navbar
+- Navbar at the top - helping user to easily navigate to diferent pages.
+- Fixed navigation bar visible on every page including a dropdown menu.
+### Images
+Images with Pythagora's teorem which bring more ease to understand the lesson.
+### Video
+The video from the "Lesson" page is to capture the pupil's attention to the lesson and make the lesson more interesting.
+### Forms
+- Forms are used to create a test in the "Lesson and Exercises" page for the pupil to asses him/herself at the end of the lesson. 
+- There are buttons that are providing correct answers, as well, for test feedback.
+### Description page
+Description is the *first page* of **Pythagora's theorem**. 
+The following pieces of information are on this page:
+* A basic presentation of Pythagora's theorem;
+* Pythagora's picture;
+* Formula for the theorem;
+* A colorful image that presents the formula in a more pleasant way for the pupil.
 
-The pupil will practice with excercises.
+### Lesson and Exercises page
+Lesson and Exercises is the *second page* of **Pythagora's theorem**.
+The following pieces of information are on this page:
+* A lesson in which the theorem is presented with an example of how to calculate a triangle's side using the theorem.
+* A video where another exemple is presented in order for pupil to understand the theorem.
+* A suggestive image that presents the formula for the pupil.
+* A test with three exercises where the pupil can test the knowledge of the theorem.
+* Possibility for the pupil to fill in an answer calculated by him/herself.
+* Possibility for the pupil to choose the correct answer.
+* A suggestive image with the purpose of helping to better calculate the formula for the exercises.
 
-The color of the backgroud, video, images will capture the pupil's attention to the lesson and make the lesson more interesting.
+### Contact 
+todo
 
+## Features Left to Implement
 
-## Technologies Used ##
+* One of the improvments that can be done is to provide a submit button for the "Exercises" page and use JavaScript to auto-grade the test.
+* Another feature that I would like to implement back-end for contact and sign-up form to make them fully functional.
 
-**Languages Used**
+ 
+# Technologies Used
+
+## Languages Used
 
 * The app was created using HTML5 styled with custom CSS3 styles.
 * The logic scripts were written in JavaScript.
 
-**Frameworks, Libraries & Programs Used**
+## Frameworks, Libraries, Programs Used & other tools 
 
 1. [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 * Bootstrap 4.6 css was used to create the navigation bar, as well as 'Exercises' page, responsive design, etc.
@@ -102,9 +131,10 @@ The color of the backgroud, video, images will capture the pupil's attention to 
 * GitHub was used to store the project's code after being pushed from local repository.
 5. [Balsamic:](https://balsamiq.com/wireframes/desktop/#)
 * Balsamic was used to create the wireframes shown above for the front end design.
+6. [Markdown TOC generator](https://ecotrust-canada.github.io/markdown-toc/)
 
 
-##Testing##
+# Testing todo
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -118,7 +148,7 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Deployment ##
+# Deployment
 
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps:
@@ -128,35 +158,20 @@ The project was deployed to GitHub Pages using the following steps:
 3. Scrolled down the Settings page until "GitHub Pages" Section was located.
 3. Under "Source", clicked the dropdown called "None" and selected "Master Branch".
 4. The page automatically refreshed.
-5. Scrolled back down through the page to locate the now published site [link](https://emusat2021.github.io/Lesson---Pythagoras-Theorem) in the "GitHub Pages" section.
+5. Scrolled back down through the page to locate the now published site [link](https://emusat2021.github.io/Lesson---Pythagoras-Theorem/) in the "GitHub Pages" section.
 
-## Credits ##
+# Credits
 
-/*credit: code for navbar taken from:https://getbootstrap.com/docs/4.6/components/navbar/ and eding slightly to fit project needs*/
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+## Code
+* Code for navbar taken from:https://getbootstrap.com/docs/4.6/components/navbar/ and eding slightly to fit project needs*/
+* Code for Contact page from [Code Institute-Mini Project with Bootstrap 4 ](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4)
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
-      </div>
-</nav>
-
-### Content ###
+## Content
 
 * The text for page 1 and 2 was copied from the [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem
 )
 
-### Media ###
+## Media
 * Background image [pinterest.com](https://www.pinterest.com/pin/256071928790233645/);
 * Pythagora's picture page 1 [classicalwisdom.com](https://classicalwisdom.com/philosophy/cult-of-pythagoras/);
 * Triangel image page 1 [byjus.com](https://www.google.com/search?q=byjus+pythagoras+theorem&tbm=isch&ved=2ahUKEwjBi5mmo7zvAhXSsCoKHVSLBpsQ2-);
@@ -164,8 +179,8 @@ The project was deployed to GitHub Pages using the following steps:
 * Triangel image page 3 [istockphoto.com](https://www.istockphoto.com/se/vektor/pythagoras-sats-ikon-illustration-konst-gm654108570-119009899);
 * Video page 2 [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem)
 
-###Acknowledgements###
+## Acknowledgements
 •	I received inspiration for this project from X
 
-
-
+# Disclaimer
+This site is made for educational purposes only.
