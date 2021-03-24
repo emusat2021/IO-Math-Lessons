@@ -48,13 +48,27 @@ body {
 .title-right-about {
    padding-top: 0px;
 }
-
 /*--------footer----*/
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+}
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5% 5% 5% 0;
+    color: #3a3a3a;
 }
 
 @keyframes isplayed-img-Pythagora {
