@@ -8,13 +8,13 @@ todo image https://imgbb.com/
 1st milestone project: User-Centric Frontend Development - [Code Institute](https://codeinstitute.net/) assignment project.
 
 This is an non profit organisation "IO Math Lessons" who provides websites with math lessons.
-The math lessons are made for 7 grade pupils in order to help them learn more easily a math lesson.
+The math lessons are intended to be used for pupils in secondary school (5th to 9th grade) in order to help them learn a math lesson more easily.
  
-This website with lesson of of Pythagora's theorem is for pupils in 7th grade. 
+Pythagora's theorem is the first lesson offered by **_IO Math Lessons_**.
 
-This lesson is presenting Pythagora's theorem as well as images for better understanding, video and exercises.
+The lesson is presenting Pythagora's theorem as well as images for better understanding, video and exercises.
 
-In adddision this website gives the opportunity to contact IO Math Lessons and see the list of lessons that are provided as well as form to send messages with a posible lesson requests.
+This website gives the opportunity to contact IO Math Lessons and it is providing a form to send messages with a posible lesson request.
 
 
 
@@ -132,9 +132,18 @@ todo
 5. [Balsamic:](https://balsamiq.com/wireframes/desktop/#)
 * Balsamic was used to create the wireframes shown above for the front end design.
 6. [Markdown TOC generator](https://ecotrust-canada.github.io/markdown-toc/)
+7. [Logo](https://secure.logomaker.com/myprojects)
 
 
 # Testing todo
+- test that navbar is fixed on mobile on all pages.
+- test that navbar is fixed on larger devices on all pages.
+- test that container top margin is appropriate on mobile on all pages.
+- test that container top is appropriate on larger devices on all pages.
+- test that navbar collapse button on small devices is displayed properly.
+- test that navbar collapsed content is fully expanded on small devices.
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -164,7 +173,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 ## Code
 * Code for navbar taken from:https://getbootstrap.com/docs/4.6/components/navbar/ and eding slightly to fit project needs*/
-* Code for Contact page from [Code Institute-Mini Project with Bootstrap 4 ](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4)
+* Code for About us page from [Code Institute-Mini Project with Bootstrap 4 ](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4)
 
 ## Content
 
