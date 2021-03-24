@@ -48,6 +48,10 @@ body {
 .title-right-about {
    padding-top: 0px;
 }
+/* container----*/
+.container-custom {
+    margin-top: 100px;
+   }
 /*--------footer----*/
 .footer {
     position: fixed;
