@@ -82,11 +82,12 @@ body {
         transform: scale(1.1);
     }
 }
+/*----------Media Quries*/
 @media screen and (max-width: 1393px ){ 
     .video-lesson {
         width: 40%;
         height: 300px;
-    }
+    }    
 }
 @media screen and (max-width: 943px){
    .video-lesson {
@@ -94,3 +95,35 @@ body {
         height: auto;
     }
 } 
+@media screen and (max-width: 800px){
+   .container-custom {
+    margin-top: 50px;
+    }
+    .diagram {
+    display: block;
+    margin-left: 0px;
+    width: 75%;
+    float: left;
+    }
+    .footer-custom {
+        margin-top: 50px;
+    }
+    #lastcol img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+   .img-lesson {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    float: left;
+    }
+    .img-exercises {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    float: left;
+    }
+}
