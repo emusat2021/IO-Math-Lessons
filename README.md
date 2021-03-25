@@ -1,9 +1,7 @@
 # IO-Math-Lessons_Pythagora's-theorem #
 
 
-The live website of Pythagora's theorem lesson can be viewed [here](https://emusat2021.github.io/Lesson---Pythagoras-Theorem/)
-
-todo image https://imgbb.com/
+The live website of Pythagora's theorem lesson can be viewed [here](https://emusat2021.github.io/IO-Math-Lessons)
 
 1st milestone project: User-Centric Frontend Development - [Code Institute](https://codeinstitute.net/) assignment project.
 
@@ -18,7 +16,7 @@ This website gives the opportunity to contact IO Math Lessons and it is providin
 
 
 
-See IO Math Lessons offical website [here]todo
+See IO Math Lessons offical website [here](https://emusat2021.github.io/IO-Math-Lessons)
 
 # Table of Contents
 
@@ -31,14 +29,19 @@ See IO Math Lessons offical website [here]todo
     + [Images](#images)
     + [Video](#video)
     + [Forms](#forms)
+    + [Favicon](#favicon)
     + [Description page](#description-page)
     + [Lesson and Exercises page](#lesson-and-exercises-page)
-    + [Contact](#contact)
+    + [About us page](#about-us-page)
   * [Features Left to Implement](#features-left-to-implement)
 3. [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries, Programs Used & other tools](#frameworks--libraries--programs-used---other-tools)
-4. [Testing todo](#testing-todo)
+4. [Testing](#testing)
+  * [Validators](#validators)
+    + [HTML](#html)
+    + [CSS](#css)
+    + [Responsiveness](#responsiveness)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
   * [Code](#code)
@@ -105,8 +108,13 @@ The following pieces of information are on this page:
 * Possibility for the pupil to choose the correct answer.
 * A suggestive image with the purpose of helping to better calculate the formula for the exercises.
 
-### Contact 
-todo
+### About us page 
+The following pieces of information are on this page:
+* Who are we?
+* What do we currently offer?
+* Contact details with address and telephone number.
+* A form for users to suggest other lessons that they might want.
+* Social media links.
 
 ## Features Left to Implement
 
@@ -137,7 +145,7 @@ todo
 7. [Logo](https://secure.logomaker.com/myprojects)
 
 
-# Testing todo
+# Testing
 - test that navbar is fixed on mobile on all pages.
 - test that navbar is fixed on larger devices on all pages.
 - test that container top margin is appropriate on mobile on all pages.
@@ -154,6 +162,8 @@ todo
 All the HTML files were tested through [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input). No errors were found across the html pages.
 ### CSS
 CSS files were tested through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). No errors were found across the css file.
+### Responsiveness
+I used [Am I Responsive](http://ami.responsivedesign.is/) online tool for checking responsiveness on different devices.
 
 # Deployment
 
