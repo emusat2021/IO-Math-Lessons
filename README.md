@@ -84,6 +84,8 @@ The video from the "Lesson" page is to capture the pupil's attention to the less
 ### Forms
 - Forms are used to create a test in the "Lesson and Exercises" page for the pupil to asses him/herself at the end of the lesson. 
 - There are buttons that are providing correct answers, as well, for test feedback.
+### Favicon 
+- A favorite icon has been implemented so that a user can recognize the logo on the browser tab.
 ### Description page
 Description is the *first page* of **Pythagora's theorem**. 
 The following pieces of information are on this page:
@@ -142,20 +144,16 @@ todo
 - test that container top is appropriate on larger devices on all pages.
 - test that navbar collapse button on small devices is displayed properly.
 - test that navbar collapsed content is fully expanded on small devices.
-
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-1.	Contact form:
-i.	Go to the "Contact Us" page
-ii.	Try to submit the empty form and verify that an error message about the required fields appears
-iii.	Try to submit the form with an invalid email address and verify that a relevant error message appears
-iv.	Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- test that the favorite icon is displayed in the browser tab.
+- test that the radio buttons perform as axpected.
+- test that all images are displayed as intended on different devices.
+- test that all divs are displayed properly with the help of css "debug" class.
+- test that collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson.html.
+## Validators
+### HTML
+All the HTML files were tested through [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input). No errors were found across the html pages.
+### CSS
+CSS files were tested through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). No errors were found across the css file.
 
 # Deployment
 
