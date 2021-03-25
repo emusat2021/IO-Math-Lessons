@@ -3,6 +3,8 @@
 
 The live website of Pythagora's theorem lesson can be viewed [here](https://emusat2021.github.io/IO-Math-Lessons)
 
+![](assets/images/ami_responsivedesign.png)
+
 1st milestone project: User-Centric Frontend Development - [Code Institute](https://codeinstitute.net/) assignment project.
 
 This is an non profit organisation "IO Math Lessons" who provides websites with math lessons.
@@ -52,13 +54,28 @@ See IO Math Lessons offical website [here](https://emusat2021.github.io/IO-Math-
 
 # UX
 ## Users stories
+### First Time Visitor Goals
 
 As a... | I want to... | To be able to...
 ---------|--------------|--------------
-User | Understand Pythagora Theorem | To demonstrate knowledge at school
-User | Practice with excercises | Test my knowledge
-User | Have a readable lesson | Easily understand the info presented
-User | See my test results | Have feedback on my learning progress
+First Time Visitor | be able to easily navigate throughout the site| find content
+First Time Visitor | look for testimonials | to understand what their users think of them and see if they are trusted
+First Time Visitor | locate their social media links | see their followings on social media to determine how trusted and known they are
+First Time Visitor | Understand math lessons | To demonstrate knowledge at school
+
+### Returning Visitor Goals
+As a... | I want to... | To be able to...
+---------|--------------|--------------
+Returning Visitor | Practice with excercises | Test my knowledge
+Returning Visitor | Have a readable lesson | Easily understand the info presented
+Returning Visitor | find the best way to get in contact with the organisation | get answers to any questions I may have
+
+
+### Frequent User Goals
+As a... | I want to... | To be able to...
+---------|--------------|--------------
+Frequent User | check to see if there are any newly added lessons | stay informed
+Frequent User | See my test results | Have feedback on my learning progress
 
 ## Design
 
