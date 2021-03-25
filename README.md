@@ -197,7 +197,10 @@ The project was deployed to GitHub Pages using the following steps:
 * Video page 2 [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem)
 
 ## Acknowledgements
-•	I received inspiration for this project from X
+* I received inspiration for this project from my mentor [Can Sücüllü](https://www.linkedin.com/in/cansucullu/?originalSubdomain=ie) at [Code Institute](https://www.codeinstitute.net/).
+* My husband Bogdan Musat for his immense support and love!
+* All friends and family that took the time to test this for me.
+
 
 # Disclaimer
 This site is made for educational purposes only.
