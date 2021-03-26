@@ -5,7 +5,7 @@
  border: 0; 
 }
 body {
-    background: url("../images/warm.png"); 
+    background-color: rgb(245, 245, 245); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,6 +27,7 @@ body {
 }
 .container-custom {
     margin-top: 100px;
+    background-color: rgb(255, 255, 255);
    }
 
 /* images */
