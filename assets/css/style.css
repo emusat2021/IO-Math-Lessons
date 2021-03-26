@@ -25,6 +25,9 @@ body {
 .company-name-title {
     text-align: center;
 }
+.container-custom {
+    margin-top: 100px;
+   }
 
 /* images */
 .teacher-pupils-img {
@@ -59,10 +62,6 @@ body {
 .title-right-about {
    padding-top: 0px;
 }
-/* container----*/
-.container-custom {
-    margin-top: 100px;
-   }
 /*--------footer----*/
 .footer {
     left: 0;
