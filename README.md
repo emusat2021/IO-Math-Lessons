@@ -263,7 +263,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 ### Media
 * Background image [pinterest.com](https://www.pinterest.com/pin/256071928790233645/);
-* Pythagora's picture page 1 [classicalwisdom.com](https://classicalwisdom.com/philosophy/cult-of-pythagoras/);
+* Teacher with pupils image from Home page [raisingchildren.net.au](https://raisingchildren.net.au/__data/assets/image/0032/48974/problem-solving-strategies-for-parents-and-teachernarrow.jpg);
 * Triangle image page 1 [byjus.com](https://www.google.com/search?q=byjus+pythagoras+theorem&tbm=isch&ved=2ahUKEwjBi5mmo7zvAhXSsCoKHVSLBpsQ2-);
 * Triangle image page 2 [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem);
 * Triangle image page 3 [istockphoto.com](https://www.istockphoto.com/se/vektor/pythagoras-sats-ikon-illustration-konst-gm654108570-119009899);
