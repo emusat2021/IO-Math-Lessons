@@ -1,4 +1,4 @@
-# IO-Math-Lessons_Pythagora's-theorem #
+# IO-Math-Lessons_Pythagora's-theorem
 
 
 The live website of Pythagora's theorem lesson can be viewed [here](https://emusat2021.github.io/IO-Math-Lessons)
@@ -20,10 +20,13 @@ This website gives the opportunity to contact IO Math Lessons and it is providin
 
 See IO Math Lessons offical website [here](https://emusat2021.github.io/IO-Math-Lessons)
 
-# Table of Contents
+## Table of Contents
 
 1. [UX](#ux)
   * [Users stories](#users-stories)
+    + [First Time Visitor Goals](#first-time-visitor-goals)
+    + [Returning Visitor Goals](#returning-visitor-goals)
+    + [Frequent User Goals](#frequent-user-goals)
   * [Design](#design)
 2. [Features](#features)
   * [Existing Features](#existing-features)
@@ -44,6 +47,8 @@ See IO Math Lessons offical website [here](https://emusat2021.github.io/IO-Math-
     + [HTML](#html)
     + [CSS](#css)
     + [Responsiveness](#responsiveness)
+  * [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience--ux--section)
+  * [Further Testing](#further-testing)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
   * [Code](#code)
@@ -52,18 +57,20 @@ See IO Math Lessons offical website [here](https://emusat2021.github.io/IO-Math-
   * [Acknowledgements](#acknowledgements)
 7. [Disclaimer](#disclaimer)
 
-# UX
-## Users stories
-### First Time Visitor Goals
+
+
+## UX
+### Users stories
+#### First Time Visitor Goals
 
 As a... | I want to... | To be able to...
 ---------|--------------|--------------
-First Time Visitor | be able to easily navigate throughout the site| find content
+First Time Visitor | be able to easily navigate throughout the site | find content
 First Time Visitor | look for testimonials | to understand what their users think of them and see if they are trusted
 First Time Visitor | locate their social media links | see their followings on social media to determine how trusted and known they are
 First Time Visitor | Understand math lessons | To demonstrate knowledge at school
 
-### Returning Visitor Goals
+#### Returning Visitor Goals
 As a... | I want to... | To be able to...
 ---------|--------------|--------------
 Returning Visitor | Practice with excercises | Test my knowledge
@@ -71,13 +78,13 @@ Returning Visitor | Have a readable lesson | Easily understand the info presente
 Returning Visitor | find the best way to get in contact with the organisation | get answers to any questions I may have
 
 
-### Frequent User Goals
+#### Frequent User Goals
 As a... | I want to... | To be able to...
 ---------|--------------|--------------
 Frequent User | check to see if there are any newly added lessons | stay informed
 Frequent User | See my test results | Have feedback on my learning progress
 
-## Design
+### Design
 
 The goal in design was to create a website for a math lesson that is overall user friendly. 
 The pupil will easily understand the info presented.
@@ -90,23 +97,23 @@ The color of the backgroud, video, images will capture the pupil's attention to 
 ![Wireframes](assets/wireframes/third_page_exercises.png)
 ![Wireframes](assets/wireframes/mobiletablet.png)
 
-# Features
+## Features
 
-## Existing Features
+### Existing Features
 
-### Navbar
+#### Navbar
 - Navbar at the top - helping user to easily navigate to diferent pages.
 - Fixed navigation bar visible on every page including a dropdown menu.
-### Images
+#### Images
 Images with Pythagora's teorem which bring more ease to understand the lesson.
-### Video
+#### Video
 The video from the "Lesson" page is to capture the pupil's attention to the lesson and make the lesson more interesting.
-### Forms
+#### Forms
 - Forms are used to create a test in the "Lesson and Exercises" page for the pupil to asses him/herself at the end of the lesson. 
 - There are buttons that are providing correct answers, as well, for test feedback.
-### Favicon 
+#### Favicon 
 - A favorite icon has been implemented so that a user can recognize the logo on the browser tab.
-### Description page
+#### Description page
 Description is the *first page* of **Pythagora's theorem**. 
 The following pieces of information are on this page:
 * A basic presentation of Pythagora's theorem;
@@ -114,7 +121,7 @@ The following pieces of information are on this page:
 * Formula for the theorem;
 * A colorful image that presents the formula in a more pleasant way for the pupil.
 
-### Lesson and Exercises page
+#### Lesson and Exercises page
 Lesson and Exercises is the *second page* of **Pythagora's theorem**.
 The following pieces of information are on this page:
 * A lesson in which the theorem is presented with an example of how to calculate a triangle's side using the theorem.
@@ -125,7 +132,7 @@ The following pieces of information are on this page:
 * Possibility for the pupil to choose the correct answer.
 * A suggestive image with the purpose of helping to better calculate the formula for the exercises.
 
-### About us page 
+#### About us page 
 The following pieces of information are on this page:
 * Who are we?
 * What do we currently offer?
@@ -133,20 +140,20 @@ The following pieces of information are on this page:
 * A form for users to suggest other lessons that they might want.
 * Social media links.
 
-## Features Left to Implement
+### Features Left to Implement
 
 * One of the improvments that can be done is to provide a submit button for the "Exercises" page and use JavaScript to auto-grade the test.
 * Another feature that I would like to implement back-end for contact and sign-up form to make them fully functional.
 
  
-# Technologies Used
+## Technologies Used
 
-## Languages Used
+### Languages Used
 
 * The app was created using HTML5 styled with custom CSS3 styles.
 * The logic scripts were written in JavaScript.
 
-## Frameworks, Libraries, Programs Used & other tools 
+### Frameworks, Libraries, Programs Used & other tools 
 
 1. [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 * Bootstrap 4.6 css was used to create the navigation bar, as well as 'Exercises' page, responsive design, etc.
@@ -162,7 +169,61 @@ The following pieces of information are on this page:
 7. [Logo](https://secure.logomaker.com/myprojects)
 
 
-# Testing
+## Testing
+### Validators
+#### HTML
+All the HTML files were tested through [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input). No errors were found across the html pages.
+#### CSS
+CSS files were tested through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). No errors were found across the css file.
+#### Responsiveness
+I used [Am I Responsive](http://ami.responsivedesign.is/) online tool for checking responsiveness on different devices.
+
+### Testing User Stories from User Experience (UX) Section
+* __First Time Visitor__
+
+* As a First Time Visitor I want to be able to easily navigate throughout the site to be able to find content.
+
+At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+
+* As a First Time Visitor I want to look for testimonials to be able to to understand what their users think of them and see if they are trusted.
+
+The Testimonials can easily be found in the About page.
+
+* As a First Time Visitor I want to locate their social media links to be able to see their followings on social media to determine how trusted and known they are.
+
+The social media links are located at the bottom of the About page.
+
+* As a First Time Visitor I want to understand math lessons to be able to demonstrate knowledge at school.
+
+The lesson is written in a clear and concise manner, providing pictures and video.
+
+
+* __Returning Visitor__
+
+* As a Returning Visitor I want to practice with excercises to be able to test my knowledge.
+
+The radio buttons were tested and they perform as axpected. The collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson.html.
+
+* As a Returning Visitor I want to have a readable lesson to be able to easily understand the info presented.
+
+All divs were tested with the help of css "debug" class and were displayed properly. 
+
+* As a Returning Visitor I want to find the best way to get in contact with the organisation to be able to get answers to any questions I may have.
+
+There are Contact details with address and telephone number on the About page. The form for users to suggest other lessons that they might want is functioning properly.
+
+
+* __Frequent User__
+
+* As a Frequent User I want to check to see if there are any newly added lessons to be able to stay informed.
+
+The user would already be comfortable with the website layout and can easily check the About page.
+
+* As a Frequent User I want to see my test results to be able to have feedback on my learning progress.
+
+The radio buttons were tested and they perform as axpected. The collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson.html.
+
+### Further Testing
 - test that navbar is fixed on mobile on all pages.
 - test that navbar is fixed on larger devices on all pages.
 - test that container top margin is appropriate on mobile on all pages.
@@ -174,15 +235,10 @@ The following pieces of information are on this page:
 - test that all images are displayed as intended on different devices.
 - test that all divs are displayed properly with the help of css "debug" class.
 - test that collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson.html.
-## Validators
-### HTML
-All the HTML files were tested through [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input). No errors were found across the html pages.
-### CSS
-CSS files were tested through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). No errors were found across the css file.
-### Responsiveness
-I used [Am I Responsive](http://ami.responsivedesign.is/) online tool for checking responsiveness on different devices.
 
-# Deployment
+
+
+## Deployment
 
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps:
@@ -194,18 +250,18 @@ The project was deployed to GitHub Pages using the following steps:
 4. The page automatically refreshed.
 5. Scrolled back down through the page to locate the now published site [link](https://emusat2021.github.io/Lesson---Pythagoras-Theorem/) in the "GitHub Pages" section.
 
-# Credits
+## Credits
 
-## Code
+### Code
 * Code for navbar taken from:https://getbootstrap.com/docs/4.6/components/navbar/ and eding slightly to fit project needs*/
 * Code for About us page from [Code Institute-Mini Project with Bootstrap 4 ](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4)
 
-## Content
+### Content
 
 * The text for page 1 and 2 was copied from the [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem
 )
 
-## Media
+### Media
 * Background image [pinterest.com](https://www.pinterest.com/pin/256071928790233645/);
 * Pythagora's picture page 1 [classicalwisdom.com](https://classicalwisdom.com/philosophy/cult-of-pythagoras/);
 * Triangle image page 1 [byjus.com](https://www.google.com/search?q=byjus+pythagoras+theorem&tbm=isch&ved=2ahUKEwjBi5mmo7zvAhXSsCoKHVSLBpsQ2-);
@@ -213,11 +269,11 @@ The project was deployed to GitHub Pages using the following steps:
 * Triangle image page 3 [istockphoto.com](https://www.istockphoto.com/se/vektor/pythagoras-sats-ikon-illustration-konst-gm654108570-119009899);
 * Video page 2 [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem)
 
-## Acknowledgements
+### Acknowledgements
 * I received inspiration for this project from my mentor [Can Sücüllü](https://www.linkedin.com/in/cansucullu/?originalSubdomain=ie) at [Code Institute](https://www.codeinstitute.net/).
 * My husband Bogdan Musat for his immense support and love!
 * All friends and family that took the time to test this for me.
 
 
-# Disclaimer
+## Disclaimer
 This site is made for educational purposes only.
