@@ -21,7 +21,11 @@ body {
 .nav-item a {
     text-transform: uppercase;
   }
-  
+/* About */
+.company-name-title {
+    text-align: center;
+}
+
 /* images */
 .teacher-pupils-img {
     display: block;
