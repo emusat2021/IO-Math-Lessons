@@ -181,10 +181,6 @@ input[type=email].signup-modal-input {
     .footer-custom {
         margin-top: 50px;
     }
-    #lastcol img {
-        max-width: 250px;
-        max-height: 250px;
-    }
    .img-lesson {
     width: 90%;
     height: auto;
