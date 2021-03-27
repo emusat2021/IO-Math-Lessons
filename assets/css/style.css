@@ -126,26 +126,47 @@ input[type=email].signup-modal-input {
 .title-right-about {
    padding-top: 0px;
 }
-/*--------footer----*/
-.footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
+/* Footer code taken from https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/blob/master/09-adding-footer-content/index.html */
+footer {
+    background-color: #8f8f8f;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
-.social-networks{
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 17px;
+    line-height: 7px;
     text-align: center;
-
+    color: #fafafa;
+    background: #525252;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-.social-networks li{
-    display: inline;
+.social-links li a i:hover {
+    background: #0077b3;
 }
 
-.social-networks i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 5% 5% 5% 0;
-    color: #3a3a3a;
+#footer-details {
+    padding: 20px;
+}
+
+.general-sub {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fafafa;
 }
 
 @keyframes isplayed-img-Pythagora {
