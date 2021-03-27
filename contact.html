@@ -13,16 +13,20 @@
   </head>
 <body>
     <!-- logo and navigation -->
+    <!-- Navbar code taken from Bootstrap 4 -->
 <header>
-        <nav class="navbar-fluid navbar-expand-sm navbar-light fixed-top shadow navbar-custom" style="background-color: #C0DFD3;">
-            <a class="navbar-brand" href="index.html"><strong>IO Math Lessons</strong> - Contact</a>
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top shadow navbar-custom">
+            <a class="navbar-brand pr-3" href="index.html">
+                <img src="assets/images/logo-io-math-small.png" width="30" height="30" class="d-inline-block align-top" alt="logo">
+                <strong>IO Math Lessons</strong>
+            </a>
 
                 <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">About</a>
                     </li>
@@ -30,14 +34,25 @@
                         <a class="nav-link dropdown-toggle" href="lesson-1.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Lessons
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdownMenuLink">
                         <a class="nav-link" href="lesson-1.html">Lesson 1 - Pythagora's theorem</a>
                         </div>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
+                    <!-- Sign-up link taken from https://irinatu17.github.io/Portishead -->
+                    <li class="nav-item">
+                        <a class="nav-link mr-2 mb-2 d-block d-md-none" href="#" data-toggle="modal" data-target="#signUpModal">
+                        Sign Up
+                    </a>
+                    </li>
                 </ul>
+                <div class="d-none d-md-block">
+                    <a href="/signup" class="btn btn-blue-primary" data-toggle="modal" data-target="#signUpModal">
+                    Sign Up
+                    </a>
+                </div>
             </div>
         </nav>
 </header>
@@ -85,16 +100,37 @@
         
     </div>
 </div>
-<!-- footer -->
-<footer class="footer">
-    
-            <ul class="social-networks">
-                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-</footer>
+<!-- SIGN UP MODAL -->
+<!-- Code taken from https://irinatu17.github.io/Portishead -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="signUpModal">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content" style="background-color: rgb(245, 245, 245);">
+          <div class="modal-header">
+              <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
+              <h3 class="modal-title modal-heading">
+                <i class="fas fa-envelope mr-1" aria-hidden="true"></i>
+                  Sign up for our newsletter</h3>
+                  <p class="signup-modal-paragraph">
+                    Stay updated with the latest news!
+                  </p>
+              </div>
+              <button type="button" class="close"
+                      data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+          </button>
+          </div>
+          <div class="modal-body">
+              <form class="form-inline w-100 my-2" id="signup-form">
+              <input type="email" class="form-control signup-modal-input mr-2 pb-2"
+                    id="email-signup" placeholder="Email address" required>
+              <button type="submit" class="btn btn-blue-secondary">
+                Subscribe
+              </button>
+              </form>
+          </div>
+          </div>
+      </div>
+    </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
