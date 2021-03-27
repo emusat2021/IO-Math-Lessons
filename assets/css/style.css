@@ -6,6 +6,11 @@
  padding: 0;
  border: 0; 
 }
+/* https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css */
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
     background-color: rgb(245, 245, 245); 
@@ -16,6 +21,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-bottom: 130px;
 }
 h1, h3, h5 {
     font-size: 2.6rem;
@@ -132,11 +138,14 @@ input[type=email].signup-modal-input {
    padding-top: 0px;
 }
 /* Footer code taken from https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/blob/master/09-adding-footer-content/index.html */
+/* https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css */
 footer {
     background-color: #8f8f8f;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .social-links {
