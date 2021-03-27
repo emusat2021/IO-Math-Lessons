@@ -24,6 +24,48 @@ h1 {
 .debug {
     border: 0px solid black;
 }
+/* buttons */
+/* Code taken from https://irinatu17.github.io/Portishead */
+.btn-blue-primary,
+.btn-blue-primary:link,
+.btn-blue-primary:visited{
+    color: #fff;
+    background-color: #0099e6;
+    border: none;
+    transition: all .2s;
+    border-radius: 1.5rem;
+    width: 10rem;
+}
+
+.btn-blue-primary:hover,
+.btn-blue-primary:active,
+.btn-blue-primary:focus {
+    background-color: #0077b3;
+    transform: scale(1.05) translateY(-1px);
+    color: #fff;
+}
+.btn-blue-secondary {
+    color: #fff;
+    background-color:  #0099e6;
+}
+
+.btn-blue-secondary:hover {
+    color: #fff;
+    background-color:  #0077b3;
+}
+input[type=email].signup-modal-input {
+    width: 75% !important;
+}
+/* Links */
+.links-custom {
+    transition: transform .2s;
+    display: inline-block;
+}
+.links-custom:hover {
+    text-decoration: none;
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
 /* navbar */
 
 .nav-item a {

@@ -41,7 +41,18 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
+                    <!-- Sign-up link taken from https://irinatu17.github.io/Portishead -->
+                    <li class="nav-item">
+                        <a class="nav-link mr-2 d-block d-md-none" href="#" data-toggle="modal" data-target="#signUpModal">
+                        Sign Up
+                    </a>
+                    </li>
                 </ul>
+                <div class="d-none d-md-block">
+                    <a href="/signup" class="btn btn-blue-primary" data-toggle="modal" data-target="#signUpModal">
+                    Sign Up
+                    </a>
+                </div>
             </div>
         </nav>
 </header>
@@ -59,7 +70,12 @@
             </p>
             <h5><em>What do we currently offer?</em></h5>
             <p><strong>Pythagora's theorem</strong> is the first lesson offered by <strong><em>IO Math Lessons</em></strong>.</p>
-            <p>More lessons will follow. Sign up for our newsletter.</p>
+            <p>More lessons will follow.
+                <a href="/signup" class="links-custom" data-toggle="modal" data-target="#signUpModal">
+                    Sign Up
+                </a>
+                for our newsletter.
+            </p>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 debug">
             <img class="teacher-pupils-img" src="assets/images/teacher-with-pupils.jpg" alt="teacher with pupils">
@@ -75,7 +91,40 @@
         </div>
     </div>
 </div>
-
+<footer>
+    Media links
+</footer>
+<!-- SIGN UP MODAL -->
+<!-- Code taken from https://irinatu17.github.io/Portishead/tours.html -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="signUpModal">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content" style="background-color: rgb(245, 245, 245);">
+          <div class="modal-header">
+              <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
+              <h3 class="modal-title modal-heading">
+                <i class="fas fa-envelope mr-1" aria-hidden="true"></i>
+                  Sign up for our newsletter</h3>
+                  <p class="signup-modal-paragraph">
+                    Stay updated with the latest news!
+                  </p>
+              </div>
+              <button type="button" class="close"
+                      data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+          </button>
+          </div>
+          <div class="modal-body">
+              <form class="form-inline w-100 my-2" id="signup-form">
+              <input type="email" class="form-control signup-modal-input mr-2 pb-2"
+                    id="email-signup" placeholder="Email address" required>
+              <button type="submit" class="btn btn-blue-secondary">
+                Subscribe
+              </button>
+              </form>
+          </div>
+          </div>
+      </div>
+    </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
