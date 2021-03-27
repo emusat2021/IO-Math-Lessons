@@ -57,13 +57,11 @@
         </nav>
 </header>
 <!-- container -->
-<div class="container-fluid container-custom debug">
+<div class="container container-custom debug">
     <div class="row align-items-start debug">
-        <div class="col-12 col-sm-8 col-md-8 col-lg-8 order-2 debug">
-            <iframe class="video-lesson" width="560" height="420" src="https://www.youtube.com/embed/JDmglbduKvE" style="border: 0px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col-12 col-sm-4 col-md-4 col-lg-4 order-1 debug">
-            <h1 class="title-right-about">Pythagora's theorem Lesson</h1>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center debug">
+            <h1>Pythagora's theorem Lesson</h1>
+            <h2>Introduction</h2>
             <br>
             <p>Pythagoras theorem states that for all right-angled triangles.
             <br>    
@@ -74,15 +72,19 @@
             In any right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.
             <br>
             <br>
-            In the following diagram:
+            In the following diagram:<br>
+            <img src="assets/images/lesson1-diagram1.png" alt="triangle diagram">
             <br>
             <strong>c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup></strong>
             </p>
-
-            <br>
-            <h3>Example:</h3>
-            <br>
-            <p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center debug">
+            <iframe class="video-lesson" width="560" height="420" src="https://www.youtube.com/embed/JDmglbduKvE" style="border: 0px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <hr class="block-divider block-divider--short">
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center debug">
+            <h2>Example</h2>
+            <p class="paragraph-example">
                 Find AC in the diagram below.
                 <br>
                 <strong>AB<sup>2</sup> + AC<sup>2</sup> = BC<sup>2</sup></strong>
@@ -99,19 +101,12 @@
                 <br>
                 <strong>AC  = 12</strong>
             </p>
-
-            <img class="lesson-exampel img-lesson" src="assets/images/lesson-example.png" alt="triangel-exampel">
-
+            <img src="assets/images/lesson-example.png" alt="triangle example">
         </div>
-    </div>
-    <div class="row align-items-start debug">
-        <div class="col-12 col-sm-4 col-md-4 col-lg-4 debug">
-            <img class="img-exercises" src="assets/images/img-exercises.png" alt="triangle-formula">
-        </div>
-        <div class="col-12 col-sm-8 col-md-8 col-lg-8 debug pl-5">
-            <h1 class="title-right-about">Exercises</h1>
-            <br>
-            <ol>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center debug pl-5">
+            <hr class="block-divider block-divider--short">
+            <h2>Exercises</h2>
+            <ul class="no-bullets">
                 <li> Exercise 1. Giving the image, if a=16 cm and b=12 cm, what is the hypotenuse's size?
                     <form>
                         <input type="radio" id="q1a1" name="q1" value="15">
@@ -154,7 +149,7 @@
                 </li>
                 <li> Exercise 3. Giving the image, if b=9 cm and c=14 cm, what is the a's size?
                     <form>
-                        <input type="text" id="q3a1" name="q3a1" size="3">
+                        <input type="text" id="q3a1" name="q3a1" size="3" class="" style="width: 3rem; border-radius: 0.3rem; border: 1px solid rgba(0,0,0,.3);">
                         <label for="q3a1">cm</label>
                     </form>
                     <p>
@@ -168,7 +163,7 @@
                         </div>
                     </div>
                 </li>
-            </ol>
+            </ul>
         </div>
     </div>
 </div>
