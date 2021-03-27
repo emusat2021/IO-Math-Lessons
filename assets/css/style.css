@@ -29,6 +29,9 @@ h1 {
 .nav-item a {
     text-transform: uppercase;
   }
+.navbar-custom {
+    background-color: #99ddff; 
+}
 /* About */
 .company-name-title {
     text-align: center;
