@@ -74,6 +74,10 @@ input[type=email].signup-modal-input {
 .navbar-custom {
     background-color: #99ddff; 
 }
+.dropdown-menu-custom {
+    background-color: #99ddff;
+    width: 20rem;
+}
 /* About */
 .company-name-title {
     text-align: center;
