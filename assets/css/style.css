@@ -111,6 +111,14 @@ input[type=email].signup-modal-input {
     display: block;
     margin-left: 0px;
     float: left;
+/* Testimonials */
+/* Testimonials code taken from Code Institute https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap */
+.testimonials .page-header {
+    margin-bottom: 25px;
+}
+.testimonials-h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 /*--------right-about----*/
