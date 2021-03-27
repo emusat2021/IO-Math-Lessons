@@ -17,9 +17,16 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-h1 {
+h1, h3, h5 {
     font-size: 2.6rem;
     letter-spacing: 3px;
+    font-family: "Roboto", sans-serif;
+}
+/* Code taken from https://www.w3schools.com/howto/howto_css_list_without_bullets.asp */
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .debug {
     border: 0px solid black;
