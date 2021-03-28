@@ -47,7 +47,7 @@ See IO Math Lessons offical website <a href="https://emusat2021.github.io/IO-Mat
   * [Validators](#validators)
     + [HTML](#html)
     + [CSS](#css)
-    + [Responsiveness](#responsiveness)
+    + [Compatibility and Responsiveness](#compatibility-and-responsiveness)
   * [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience--ux--section)
   * [Further Testing](#further-testing)
 5. [Deployment](#deployment)
@@ -194,7 +194,9 @@ One error was found in the css file as follows:
 ![Validation error css](assets/images/validation/css-error.jpg)
 The error was corrected by removing the comma after h1 styling.
 
-#### Responsiveness
+#### Compatibility and Responsiveness
+This website had been being tested during the development across multiple browsers (Chrome, Safari, FireFox, Internet Explorer) and on multiple devices: mobile (iPhone 5, 6, 8, Samsung Galaxy, Sony Xperia), tablets(iPad, iPadPro) and laptops (with HiDPI and MDPI and touch screens), as well as on extra-large screen(1980 x 1080).
+As well as on Google Chrome's developer tools to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.
 I used <a href="http://ami.responsivedesign.is/" target="_blank">Am I Responsive</a> online tool for checking responsiveness on different devices. The website is displayed properly across different devices.
 
 ### Testing User Stories from User Experience (UX) Section
