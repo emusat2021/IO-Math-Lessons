@@ -3,7 +3,7 @@
 
 The live website of Pythagora's theorem lesson can be viewed [here](https://emusat2021.github.io/IO-Math-Lessons)
 
-![](assets/images/ami_responsivedesign.png)
+![](assets/images/ami-responsivedesign-final.png)
 
 1st milestone project: User-Centric Frontend Development - [Code Institute](https://codeinstitute.net/) assignment project.
 
@@ -92,10 +92,10 @@ The pupil will practice with excercises.
 The color of the backgroud, video, images will capture the pupil's attention to the lesson and make the lesson more interesting. 
 
 **Wireframes**:
-![Wireframes](assets/wireframes/first_page_description.png)
-![Wireframes](assets/wireframes/second_page_lesson.png)
-![Wireframes](assets/wireframes/third_page_exercises.png)
-![Wireframes](assets/wireframes/mobiletablet.png)
+![Wireframes](assets/wireframes/wireframe-1.png)
+![Wireframes](assets/wireframes/wireframe-2.png)
+![Wireframes](assets/wireframes/wireframe-3.png)
+![Wireframes](assets/wireframes/wireframe-4.png)
 
 ## Features
 
@@ -104,6 +104,7 @@ The color of the backgroud, video, images will capture the pupil's attention to 
 #### Navbar
 - Navbar at the top - helping user to easily navigate to diferent pages.
 - Fixed navigation bar visible on every page including a dropdown menu.
+- Sign up link for newsletter.
 #### Images
 Images with Pythagora's teorem which bring more ease to understand the lesson.
 #### Video
@@ -113,24 +114,26 @@ The video from the "Lesson" page is to capture the pupil's attention to the less
 - There are buttons that are providing correct answers, as well, for test feedback.
 #### Favicon 
 - A favorite icon has been implemented so that a user can recognize the logo on the browser tab.
-#### Description page
-Description is the *first page* of **Pythagora's theorem**. 
+#### About page
+* Short presentation about IO Math Lessons.
+* Testimonials from users.
+#### Lesson menu
+This is a dropdown menu where you can find the list of all Lesson.
+Only the first lesson is created (Pythagora's theorem). 
+The site is designed in such a way that future lessons can be easily added by creating a separate html file containing the lesson and linking the lesson within the Navbar.
+#### Lesson-1 page
+This is the first lesson named **Pythagora's theorem**. 
 The following pieces of information are on this page:
-* A basic presentation of Pythagora's theorem;
-* Pythagora's picture;
-* Formula for the theorem;
-* A colorful image that presents the formula in a more pleasant way for the pupil.
-
-#### Lesson and Exercises page
-Lesson and Exercises is the *second page* of **Pythagora's theorem**.
-The following pieces of information are on this page:
-* A lesson in which the theorem is presented with an example of how to calculate a triangle's side using the theorem.
-* A video where another exemple is presented in order for pupil to understand the theorem.
-* A suggestive image that presents the formula for the pupil.
-* A test with three exercises where the pupil can test the knowledge of the theorem.
-* Possibility for the pupil to fill in an answer calculated by him/herself.
-* Possibility for the pupil to choose the correct answer.
-* A suggestive image with the purpose of helping to better calculate the formula for the exercises.
+* Introduction
+  * A basic presentation of Pythagora's theorem;
+  * Formula for the theorem and a diagram;
+  * A video where another exemple is presented in order for pupil to understand the theorem.
+* Example
+  * A practical example of how to calculate a triangle's side using the theorem.
+* Exercises
+  * A test with three exercises where the pupil can test the knowledge of the theorem.
+  * Possibility for the pupil to fill in an answer calculated by him/herself.
+  * Possibility for the pupil to choose the correct answer.
 
 #### About us page 
 The following pieces of information are on this page:
@@ -143,7 +146,9 @@ The following pieces of information are on this page:
 ### Features Left to Implement
 
 * One of the improvments that can be done is to provide a submit button for the "Exercises" page and use JavaScript to auto-grade the test.
-* Another feature that I would like to implement back-end for contact and sign-up form to make them fully functional.
+* Another feature that can be implemented is back-end logic for contact and sign-up form to make those features fully functional.
+* Add more lessons to make the site more attractive.
+
 
  
 ## Technologies Used
@@ -159,7 +164,7 @@ The following pieces of information are on this page:
 * Bootstrap 4.6 css was used to create the navigation bar, as well as 'Exercises' page, responsive design, etc.
 2. [Google Fonts:](https://fonts.google.com/)
 * Google fonts were used to import the Roboto font into the style.css file which is used on all text elements of the app.
-3. [Git:](https://azure-loon-ay9p18v0.ws-eu03.gitpod.io/#/workspace/Lesson---Pythagoras-Theorem)
+3. [Git:](https://azure-loon-ay9p18v0.ws-eu03.gitpod.io/#/workspace/IO-Math-Lessons)
 * Git was used for version control by commiting to local repository and pushing to GitHub.
 4. [GitHub:](https://github.com/)
 * GitHub was used to store the project's code after being pushed from local repository.
@@ -243,19 +248,20 @@ The radio buttons were tested and they perform as axpected. The collapsed divs w
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps:
 
-1. Logged in to GitHub and located the [GitHub Repository](https://github.com/emusat2021/Lesson---Pythagoras-Theorem)
+1. Logged in to GitHub and located the [GitHub Repository](https://github.com/emusat2021/IO-Math-Lessons)
 2. At the top of the Repository, located the "Settings" Button on the menu.
 3. Scrolled down the Settings page until "GitHub Pages" Section was located.
 3. Under "Source", clicked the dropdown called "None" and selected "Master Branch".
 4. The page automatically refreshed.
-5. Scrolled back down through the page to locate the now published site [link](https://emusat2021.github.io/Lesson---Pythagoras-Theorem/) in the "GitHub Pages" section.
+5. Scrolled back down through the page to locate the now published site [link](https://emusat2021.github.io/IO-Math-Lessons/) in the "GitHub Pages" section.
 
 ## Credits
 
 ### Code
 * Code for navbar taken from:https://getbootstrap.com/docs/4.6/components/navbar/ and eding slightly to fit project needs*/
 * Code for About us page from [Code Institute-Mini Project with Bootstrap 4 ](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4)
-
+* Code for SIGN UP MODAL and link taken from [Portishead](https://irinatu17.github.io/Portishead)
+* Code for footer taken from [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/blob/master/09-adding-footer-content/index.html)
 ### Content
 
 * The text for page 1 and 2 was copied from the [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem
