@@ -221,7 +221,7 @@ The lesson is written in a clear and concise manner, providing pictures and vide
 * As a Returning Visitor I want to practice with excercises to be able to test my knowledge.
 
 The radio buttons were tested and they perform as axpected. The collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson-1.html.
-
+![UX testing 1](assets/images/ux/ux-testing-2.jpg)
 * As a Returning Visitor I want to have a readable lesson to be able to easily understand the info presented.
 
 All divs were tested with the help of css "debug" class and were displayed properly. 
@@ -233,7 +233,7 @@ There are Contact details with address and telephone number on the Contact page.
 * As a Returning Visitor I want to be notified when new lessons are available in order to stay updated.
 
 There is a "Sign up" button in the menu as well as a "Sign up" link in the About page. When the user clicks on either of them, a modal pops up asking the user to register for the news letter.
-
+![UX testing 1](assets/images/ux/ux-testing-3.jpg)
 * __Frequent User__
 
 * As a Frequent User I want to check to see if there are any newly added lessons to be able to stay informed.
@@ -254,6 +254,7 @@ The radio buttons were tested and they perform as axpected. The collapsed divs w
 - test that the favorite icon is displayed in the browser tab.
 - test that the radio buttons perform as axpected.
 - test that all images are displayed as intended on different devices.
+![UX testing 1](assets/images/ux/ux-testing-1.jpg)
 - test that all divs are displayed properly with the help of css "debug" class.
 - test that collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson-1.html.
 
