@@ -186,11 +186,13 @@ All the HTML files were tested through <a href="https://validator.w3.org/#valida
 One error was found in index.html as follows:
 ![Validation error part 1](assets/images/validation/html-error-1-part-1.jpg)
 ![Validation error part 2](assets/images/validation/html-error-1-part-2.jpg)
-The error was corrected.
+The error was corrected by adding the missing div.
 #### CSS
-CSS files were tested through <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a>. No errors were found across the css file.
-One error was found in index.html as follows:
+CSS files were tested through <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a>.
+One error was found in the css file as follows:
 ![Validation error css](assets/images/validation/css-error.jpg)
+The error was corrected by removing the comma after h1 styling.
+
 #### Responsiveness
 I used <a href="http://ami.responsivedesign.is/" target="_blank">Am I Responsive</a> online tool for checking responsiveness on different devices. The website is displayed properly across different devices.
 
