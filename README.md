@@ -1,7 +1,7 @@
-# IO-Math-Lessons_Pythagora's-theorem
+# IO-Math-Lessons
 
 
-The live website of Pythagora's theorem lesson can be viewed <a href="https://emusat2021.github.io/IO-Math-Lessons" target="_blank">here</a>
+The live website of **IO-Math-Lessons** can be viewed <a href="https://emusat2021.github.io/IO-Math-Lessons" target="_blank">here</a>
 
 ![](assets/images/ami-responsivedesign-final.png)
 
@@ -20,8 +20,6 @@ This website gives the opportunity to contact IO Math Lessons and it is providin
 
 See IO Math Lessons offical website <a href="https://emusat2021.github.io/IO-Math-Lessons" target="_blank">here</a>
 
-## Table of Contents
-
 1. [UX](#ux)
   * [Users stories](#users-stories)
     + [First Time Visitor Goals](#first-time-visitor-goals)
@@ -35,9 +33,12 @@ See IO Math Lessons offical website <a href="https://emusat2021.github.io/IO-Mat
     + [Video](#video)
     + [Forms](#forms)
     + [Favicon](#favicon)
-    + [Description page](#description-page)
-    + [Lesson and Exercises page](#lesson-and-exercises-page)
-    + [About us page](#about-us-page)
+    + [Sign-up modal](#sign-up-modal)
+    + [Footer](#footer)
+    + [About page](#about-page)
+    + [Lesson menu](#lesson-menu)
+    + [Lesson-1 page](#lesson-1-page)
+    + [Contact page](#contact-page)
   * [Features Left to Implement](#features-left-to-implement)
 3. [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
