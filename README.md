@@ -76,6 +76,7 @@ As a... | I want to... | To be able to...
 Returning Visitor | Practice with excercises | Test my knowledge
 Returning Visitor | Have a readable lesson | Easily understand the info presented
 Returning Visitor | find the best way to get in contact with the organisation | get answers to any questions I may have
+Returning Visitor | be notified when new lessons are available | stay updated
 
 
 #### Frequent User Goals
@@ -111,9 +112,14 @@ Images with Pythagora's teorem which bring more ease to understand the lesson.
 The video from the "Lesson" page is to capture the pupil's attention to the lesson and make the lesson more interesting.
 #### Forms
 - Forms are used to create a test in the "Lesson and Exercises" page for the pupil to asses him/herself at the end of the lesson. 
-- There are buttons that are providing correct answers, as well, for test feedback.
+- There are buttons that are providing correct answers, as well, for test feedback. 
+- When the "Click here for answer" button is clicked, a collapsed div is shown, containing the answer and an explanation. The collapsed div was realized using Bootstrap.
 #### Favicon 
 - A favorite icon has been implemented so that a user can recognize the logo on the browser tab.
+#### Sign-up modal
+A sign-up modal is presented in all pages. The sign-up can be accessed via the Navbar. It is realised using Bootstrap.
+#### Footer
+The footer is styled using Bootstrap. It contains links to social media as well as a disclaimer and a copyright note.
 #### About page
 * Short presentation about IO Math Lessons.
 * Testimonials from users.
@@ -135,13 +141,12 @@ The following pieces of information are on this page:
   * Possibility for the pupil to fill in an answer calculated by him/herself.
   * Possibility for the pupil to choose the correct answer.
 
-#### About us page 
+#### Contact page 
 The following pieces of information are on this page:
 * Who are we?
 * What do we currently offer?
 * Contact details with address and telephone number.
 * A form for users to suggest other lessons that they might want.
-* Social media links.
 
 ### Features Left to Implement
 
@@ -168,20 +173,26 @@ The following pieces of information are on this page:
 * Git was used for version control by commiting to local repository and pushing to GitHub.
 4. [GitHub:](https://github.com/)
 * GitHub was used to store the project's code after being pushed from local repository.
-5. [Balsamic:](https://balsamiq.com/wireframes/desktop/#)
-* Balsamic was used to create the wireframes shown above for the front end design.
+5. [Balsamiq:](https://balsamiq.com/wireframes/desktop/#)
+* Balsamiq was used to create the wireframes shown above for the front end design.
 6. [Markdown TOC generator](https://ecotrust-canada.github.io/markdown-toc/)
 7. [Logo](https://secure.logomaker.com/myprojects)
-
+* The logo was generated using logomaker.com online service
 
 ## Testing
 ### Validators
 #### HTML
-All the HTML files were tested through [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input). No errors were found across the html pages.
+All the HTML files were tested through [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input). 
+One error was found in index.html as follows:
+![Validation error part 1](assets/images/validation/html-error-1-part-1.jpg)
+![Validation error part 2](assets/images/validation/html-error-1-part-2.jpg)
+The error was corrected.
 #### CSS
 CSS files were tested through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). No errors were found across the css file.
+One error was found in index.html as follows:
+![Validation error css](assets/images/validation/css-error.jpg)
 #### Responsiveness
-I used [Am I Responsive](http://ami.responsivedesign.is/) online tool for checking responsiveness on different devices.
+I used [Am I Responsive](http://ami.responsivedesign.is/) online tool for checking responsiveness on different devices. The website is displayed properly across different devices.
 
 ### Testing User Stories from User Experience (UX) Section
 * __First Time Visitor__
@@ -196,7 +207,7 @@ The Testimonials can easily be found in the About page.
 
 * As a First Time Visitor I want to locate their social media links to be able to see their followings on social media to determine how trusted and known they are.
 
-The social media links are located at the bottom of the About page.
+The social media links are located at the bottom of each page in the footer.
 
 * As a First Time Visitor I want to understand math lessons to be able to demonstrate knowledge at school.
 
@@ -207,7 +218,7 @@ The lesson is written in a clear and concise manner, providing pictures and vide
 
 * As a Returning Visitor I want to practice with excercises to be able to test my knowledge.
 
-The radio buttons were tested and they perform as axpected. The collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson.html.
+The radio buttons were tested and they perform as axpected. The collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson-1.html.
 
 * As a Returning Visitor I want to have a readable lesson to be able to easily understand the info presented.
 
@@ -215,8 +226,11 @@ All divs were tested with the help of css "debug" class and were displayed prope
 
 * As a Returning Visitor I want to find the best way to get in contact with the organisation to be able to get answers to any questions I may have.
 
-There are Contact details with address and telephone number on the About page. The form for users to suggest other lessons that they might want is functioning properly.
+There are Contact details with address and telephone number on the Contact page. The form for users to suggest other lessons that they might want is functioning properly.
 
+* As a Returning Visitor I want to be notified when new lessons are available in order to stay updated.
+
+There is a "Sign up" button in the menu as well as a "Sign up" link in the About page. When the user clicks on either of them, a modal pops up asking the user to register for the news letter.
 
 * __Frequent User__
 
@@ -226,7 +240,7 @@ The user would already be comfortable with the website layout and can easily che
 
 * As a Frequent User I want to see my test results to be able to have feedback on my learning progress.
 
-The radio buttons were tested and they perform as axpected. The collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson.html.
+The radio buttons were tested and they perform as axpected. The collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson-1.html.
 
 ### Further Testing
 - test that navbar is fixed on mobile on all pages.
@@ -239,7 +253,7 @@ The radio buttons were tested and they perform as axpected. The collapsed divs w
 - test that the radio buttons perform as axpected.
 - test that all images are displayed as intended on different devices.
 - test that all divs are displayed properly with the help of css "debug" class.
-- test that collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson.html.
+- test that collapsed divs with answers are revealed when clicking on the "Click here for correct answer" button in lesson-1.html.
 
 
 
@@ -258,26 +272,27 @@ The project was deployed to GitHub Pages using the following steps:
 ## Credits
 
 ### Code
-* Code for navbar taken from:https://getbootstrap.com/docs/4.6/components/navbar/ and eding slightly to fit project needs*/
-* Code for About us page from [Code Institute-Mini Project with Bootstrap 4 ](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4)
+* Code for navbar taken from  [getbootstrap.com]https://getbootstrap.com/docs/4.6/components/navbar/ and eding slightly to fit project needs*/
+* Code for section and form in Contact page from [Code Institute-Mini Project with Bootstrap 4 ](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4)
 * Code for SIGN UP MODAL and link taken from [Portishead](https://irinatu17.github.io/Portishead)
 * Code for footer taken from [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/blob/master/09-adding-footer-content/index.html)
+* Code for footer with name [Portishead](https://irinatu17.github.io/Portishead)
+* Code for Testimonials taken from [BootstrappingYourNextBigIdea-BS4] https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap
+
 ### Content
 
-* The text for page 1 and 2 was copied from the [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem
+* The text for in Lessons for Lesson 1 - Pythagora's theorem, Introduction and Example was copied from the [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem
 )
 
 ### Media
-* Background image [pinterest.com](https://www.pinterest.com/pin/256071928790233645/);
 * Teacher with pupils image from Home page [raisingchildren.net.au](https://raisingchildren.net.au/__data/assets/image/0032/48974/problem-solving-strategies-for-parents-and-teachernarrow.jpg);
-* Triangle image page 1 [byjus.com](https://www.google.com/search?q=byjus+pythagoras+theorem&tbm=isch&ved=2ahUKEwjBi5mmo7zvAhXSsCoKHVSLBpsQ2-);
-* Triangle image page 2 [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem);
-* Triangle image page 3 [istockphoto.com](https://www.istockphoto.com/se/vektor/pythagoras-sats-ikon-illustration-konst-gm654108570-119009899);
+* Diagram triangle image Lessons Lesson 1 - Pythagora's theorem page [gstatic.com](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgxavlp2-18lF2fSK7dQZ8NHTiBIjZmzpZfA&usqp=CAU);
+* Example triangle image Lessons Lesson 1 - Pythagora's theorem page [gstatic.com](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwj8hQXL1f5VAA-kkm3JD4zEE7PxOp822FbQ&usqp=CAU);
+* Logo image Contact page [logomaker.com]((https://secure.logomaker.com/myprojects);
 * Video page 2 [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem)
-
 ### Acknowledgements
 * I received inspiration for this project from my mentor [Can Sücüllü](https://www.linkedin.com/in/cansucullu/?originalSubdomain=ie) at [Code Institute](https://www.codeinstitute.net/).
-* My husband Bogdan Musat for his immense support and love!
+* My husband Bogdan Musat and son David Musat for their immense support, patience and love!
 * All friends and family that took the time to test this for me.
 
 
