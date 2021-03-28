@@ -1,11 +1,11 @@
 # IO-Math-Lessons_Pythagora's-theorem
 
 
-The live website of Pythagora's theorem lesson can be viewed [here](https://emusat2021.github.io/IO-Math-Lessons)
+The live website of Pythagora's theorem lesson can be viewed <a href="https://emusat2021.github.io/IO-Math-Lessons" target="_blank">here</a>
 
 ![](assets/images/ami-responsivedesign-final.png)
 
-1st milestone project: User-Centric Frontend Development - [Code Institute](https://codeinstitute.net/) assignment project.
+1st milestone project: User-Centric Frontend Development - <a href="https://codeinstitute.net/" target="_blank">Code Institute</a> assignment project.
 
 This is an non profit organisation "IO Math Lessons" who provides websites with math lessons.
 The math lessons are intended to be used for pupils in secondary school (5th to 9th grade) in order to help them learn a math lesson more easily.
@@ -18,7 +18,7 @@ This website gives the opportunity to contact IO Math Lessons and it is providin
 
 
 
-See IO Math Lessons offical website [here](https://emusat2021.github.io/IO-Math-Lessons)
+See IO Math Lessons offical website <a href="https://emusat2021.github.io/IO-Math-Lessons" target="_blank">here</a>
 
 ## Table of Contents
 
@@ -165,34 +165,34 @@ The following pieces of information are on this page:
 
 ### Frameworks, Libraries, Programs Used & other tools 
 
-1. [Bootstrap 4.6:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+1. <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" target="_blank">Bootstrap 4.6:</a>
 * Bootstrap 4.6 css was used to create the navigation bar, as well as 'Exercises' page, responsive design, etc.
-2. [Google Fonts:](https://fonts.google.com/)
+2. <a href="https://fonts.google.com/" target="_blank">Google Fonts:</a>
 * Google fonts were used to import the Roboto font into the style.css file which is used on all text elements of the app.
-3. [Git:](https://azure-loon-ay9p18v0.ws-eu03.gitpod.io/#/workspace/IO-Math-Lessons)
+3. <a href="https://azure-loon-ay9p18v0.ws-eu03.gitpod.io/#/workspace/IO-Math-Lessons" target="_blank">Git:</a>
 * Git was used for version control by commiting to local repository and pushing to GitHub.
-4. [GitHub:](https://github.com/)
+4. <a href="https://github.com/" target="_blank">GitHub:</a>
 * GitHub was used to store the project's code after being pushed from local repository.
-5. [Balsamiq:](https://balsamiq.com/wireframes/desktop/#)
+5. <a href="https://balsamiq.com/wireframes/desktop/#" target="_blank">Balsamiq:</a>
 * Balsamiq was used to create the wireframes shown above for the front end design.
-6. [Markdown TOC generator](https://ecotrust-canada.github.io/markdown-toc/)
-7. [Logo](https://secure.logomaker.com/myprojects)
+6. <a href="https://ecotrust-canada.github.io/markdown-toc/" target="_blank">Markdown TOC generator</a>
+7. <a href="https://secure.logomaker.com/myprojects" target="_blank">Logo</a>
 * The logo was generated using logomaker.com online service
 
 ## Testing
 ### Validators
 #### HTML
-All the HTML files were tested through [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input). 
+All the HTML files were tested through <a href="https://validator.w3.org/#validate_by_input" target="_blank">W3C Markup Validation Service</a>. 
 One error was found in index.html as follows:
 ![Validation error part 1](assets/images/validation/html-error-1-part-1.jpg)
 ![Validation error part 2](assets/images/validation/html-error-1-part-2.jpg)
 The error was corrected.
 #### CSS
-CSS files were tested through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). No errors were found across the css file.
+CSS files were tested through <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a>. No errors were found across the css file.
 One error was found in index.html as follows:
 ![Validation error css](assets/images/validation/css-error.jpg)
 #### Responsiveness
-I used [Am I Responsive](http://ami.responsivedesign.is/) online tool for checking responsiveness on different devices. The website is displayed properly across different devices.
+I used <a href="http://ami.responsivedesign.is/" target="_blank">Am I Responsive</a> online tool for checking responsiveness on different devices. The website is displayed properly across different devices.
 
 ### Testing User Stories from User Experience (UX) Section
 * __First Time Visitor__
@@ -262,22 +262,22 @@ The radio buttons were tested and they perform as axpected. The collapsed divs w
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps:
 
-1. Logged in to GitHub and located the [GitHub Repository](https://github.com/emusat2021/IO-Math-Lessons)
+1. Logged in to GitHub and located the <a href="https://github.com/emusat2021/IO-Math-Lessons" target="_blank">GitHub Repository</a>
 2. At the top of the Repository, located the "Settings" Button on the menu.
 3. Scrolled down the Settings page until "GitHub Pages" Section was located.
 3. Under "Source", clicked the dropdown called "None" and selected "Master Branch".
 4. The page automatically refreshed.
-5. Scrolled back down through the page to locate the now published site [link](https://emusat2021.github.io/IO-Math-Lessons/) in the "GitHub Pages" section.
+5. Scrolled back down through the page to locate the now published site <a href="https://emusat2021.github.io/IO-Math-Lessons/" target="_blank">link</a> in the "GitHub Pages" section.
 
 ## Credits
 
 ### Code
-* Code for navbar taken from  [getbootstrap.com]https://getbootstrap.com/docs/4.6/components/navbar/ and eding slightly to fit project needs*/
-* Code for section and form in Contact page from [Code Institute-Mini Project with Bootstrap 4 ](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4)
-* Code for SIGN UP MODAL and link taken from [Portishead](https://irinatu17.github.io/Portishead)
-* Code for footer taken from [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/blob/master/09-adding-footer-content/index.html)
-* Code for footer with name [Portishead](https://irinatu17.github.io/Portishead)
-* Code for Testimonials taken from [BootstrappingYourNextBigIdea-BS4] https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap
+* Code for navbar taken from  <a href="https://getbootstrap.com/docs/4.6/components/navbar/" target="_blank">getbootstrap.com</a> and eding slightly to fit project needs*/
+* Code for section and form in Contact page from <a href="https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4" target="_blank">Code Institute-Mini Project with Bootstrap 4 </a>
+* Code for SIGN UP MODAL and link taken from <a href="https://irinatu17.github.io/Portishead" target="_blank">Portishead</a>
+* Code for footer taken from <a href="https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/blob/master/09-adding-footer-content/index.html" target="_blank">resume-miniproject-bootstrap4</a>
+* Code for footer with name <a href="https://irinatu17.github.io/Portishead" target="_blank">Portishead</a>
+* Code for Testimonials taken from <a href="https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap" target="_blank">BootstrappingYourNextBigIdea-BS4</a>
 
 ### Content
 
@@ -285,13 +285,13 @@ The project was deployed to GitHub Pages using the following steps:
 )
 
 ### Media
-* Teacher with pupils image from Home page [raisingchildren.net.au](https://raisingchildren.net.au/__data/assets/image/0032/48974/problem-solving-strategies-for-parents-and-teachernarrow.jpg);
-* Diagram triangle image Lessons Lesson 1 - Pythagora's theorem page [gstatic.com](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgxavlp2-18lF2fSK7dQZ8NHTiBIjZmzpZfA&usqp=CAU);
-* Example triangle image Lessons Lesson 1 - Pythagora's theorem page [gstatic.com](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwj8hQXL1f5VAA-kkm3JD4zEE7PxOp822FbQ&usqp=CAU);
-* Logo image Contact page [logomaker.com]((https://secure.logomaker.com/myprojects);
-* Video page 2 [revisionmaths.com](https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem)
+* Teacher with pupils image from Home page <a href="https://raisingchildren.net.au/__data/assets/image/0032/48974/problem-solving-strategies-for-parents-and-teachernarrow.jpg" target="_blank">raisingchildren.net.au</a>;
+* Diagram triangle image Lessons Lesson 1 - Pythagora's theorem page <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgxavlp2-18lF2fSK7dQZ8NHTiBIjZmzpZfA&usqp=CAU" target="_blank">gstatic.com</a>;
+* Example triangle image Lessons Lesson 1 - Pythagora's theorem page <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwj8hQXL1f5VAA-kkm3JD4zEE7PxOp822FbQ&usqp=CAU" target="_blank">gstatic.com</a>;
+* Logo image Contact page <a href="(https://secure.logomaker.com/myprojects" target="_blank">logomaker.com</a>;
+* Video page 2 <a href="https://revisionmaths.com/gcse-maths-revision/trigonometry/pythagorass-theorem" target="_blank">revisionmaths.com</a>
 ### Acknowledgements
-* I received inspiration for this project from my mentor [Can Sücüllü](https://www.linkedin.com/in/cansucullu/?originalSubdomain=ie) at [Code Institute](https://www.codeinstitute.net/).
+* I received inspiration for this project from my mentor <a href="https://www.codeinstitute.net/" target="_blank">Can Sücüllü](https://www.linkedin.com/in/cansucullu/?originalSubdomain=ie) at [Code Institute</a>.
 * My husband Bogdan Musat and son David Musat for their immense support, patience and love!
 * All friends and family that took the time to test this for me.
 
