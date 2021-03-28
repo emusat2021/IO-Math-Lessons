@@ -182,15 +182,6 @@ footer {
     font-size: 20px;
     color: #fafafa;
 }
-
-@keyframes isplayed-img-Pythagora {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
 /*----------Media Quries*/
 @media screen and (max-width: 1393px ){ 
     .container-custom {
