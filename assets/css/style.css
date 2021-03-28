@@ -23,7 +23,7 @@ body {
     background-attachment: fixed;
     margin-bottom: 130px;
 }
-h1, h3, h5 {
+h1, {
     font-size: 2.6rem;
     letter-spacing: 3px;
     font-family: "Roboto", sans-serif;
